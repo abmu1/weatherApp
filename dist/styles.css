@@ -162,7 +162,7 @@ header{
 }
 footer{
   font-size: x-large;
-  border-top: 0.5px dotted var(--colo);
+  border-top: 0.5px solid var(--colo);
   padding-top: 8px;
 }
 
