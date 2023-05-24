@@ -172,6 +172,10 @@ footer{
   border: 2px solid var(--bg);
   border-radius: 50%;
   border-style: none;
+  background-color: var(--bg);
+}
+#change-theme:hover{
+  filter: brightness(0.5);
 }
 
 
