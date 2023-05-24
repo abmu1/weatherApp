@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+  </head>
+  <body data-theme="light">
+    <header>
+      <h2>
+        Weather App
+      </h2>
+      <img id="change-theme"></img>
+    </header>
+    <main>
+      <div class="current-weather">
+        <div class="top">
+          <img class="clear" id="current-svg">
+          <div class="clear" id="temp"></div>
+          <div class="clear title" id="location"></div>
+        </div>
+        <div class="bottom">
+          <div class="values">
+            <span>Feels Like</span>
+            <span class="clear" id="app-temp"></span>
+          </div>
+          <div class="values" id="hum">
+          </div>
+          <div class="values" id="wind">
+          </div>
+        </div>
+      </div>
+      <div id="top-right">
+        <form action="#" class="search-bar">
+          <input id="search" type="text" placeholder="Enter Location">
+          <button type="submit" id="search-icon"></button>
+        </form>
+        <div class="hidden" id="error-msg">Invalid Input, Enter A city Name!</div>
+      </div>
+
+      <div class="hourly-container clear"></div>
+      <div class="daily-container clear"></div>
+    </main>
+    <footer>It's something.</footer>
+  </body>
+</html>
